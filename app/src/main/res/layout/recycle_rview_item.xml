@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvCourseId"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:padding="@dimen/minor"
+        android:gravity="center"
+        android:background="@drawable/border"
+        android:text="Id"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/tvCourseName"
+        android:layout_width="0dp"
+        android:background="@drawable/border"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:padding="@dimen/minor"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/tvCourseDescription"
+        android:layout_width="0dp"
+        android:background="@drawable/border"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/minor"
+        android:text="Description"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/tvCourseDuration"
+        android:layout_width="0dp"
+        android:background="@drawable/border"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/minor"
+        android:text="Duration"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/tvCourseTracks"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/minor"
+        android:text="Tracks"
+        android:textColor="@color/black" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/actionLL"
+        android:background="@drawable/border"
+        android:orientation="horizontal"
+        android:padding="@dimen/minor"
+        android:layout_weight="1">
+    </LinearLayout>
+</LinearLayout>
